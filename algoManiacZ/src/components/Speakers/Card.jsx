@@ -2,14 +2,14 @@
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import cardBackground from '../../assets/cardBackgroundImage.svg'
 
-const Card = ({name,imageUrl,about,linkedin,github}) => {
+const Card = ({ name, imageUrl, about, linkedin, github }) => {
   return (
     <div className="max-w-sm rounded-lg overflow-hidden shadow-lg mx-auto my-4 py-4  bg-[#000000]  bg-no-repeat bg-cover bg-center"
 
-     style={{
+      style={{
         backgroundImage: `url(${cardBackground})`,
       }}
-    
+
     >
       <div className="flex items-center justify-center h-40 ">
         <img
@@ -23,7 +23,7 @@ const Card = ({name,imageUrl,about,linkedin,github}) => {
         <div className="font-bold text-xl text-center mb-2">{name}</div>
 
         <p className="text-gray-700 text-base">
-         {about}
+          {about}
         </p>
       </div>
 

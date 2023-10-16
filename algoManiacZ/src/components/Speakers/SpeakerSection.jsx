@@ -15,13 +15,13 @@ const SpeakerSection = () => {
       <div className="h-auto pb-10 text-[#aeadaa] bg-[#0e0b10] w-full flex flex-col justify-center  gap-y-3 pt-10">
         <div className="text-center">
           <h1 className="text-4xl font-bold   lg:text-5xl xl:text-8xl">
-            Whos Speaking?
+            Who's Speaking?
           </h1>
-          <p className="mt-2 text-3xl " style={gradientTextStyle}>
+          <p className="mt-10 text-3xl " style={gradientTextStyle}>
             Take a look at the Speakers at our channel
           </p>
         </div>
-        <div className="grid gap-5 grid-cols-1  lg:grid-cols-3 md:grid-cols-2 lg:mt-4  px-4">
+        <div className="grid gap-5 grid-cols-1  lg:grid-cols-3 md:grid-cols-2 lg:mt-10  px-4">
           {Speakers.map((speaker) => {
             return <Card key={speaker.name} {...speaker}></Card>;
           })}
