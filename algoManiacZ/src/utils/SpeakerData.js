@@ -1,6 +1,9 @@
 import Nisha from '../assets/Nisha1.jpg'
 import Manish from '../assets/Manish1.jpg'
 import Ayushi from '../assets/Ayushi1.jpeg'
+import Devanshu from '../assets/Devanshu-min.jpg'
+
+
 export const Speakers = [
   {
     name: 'Nisha',
@@ -21,6 +24,14 @@ export const Speakers = [
   {
     name: 'Ayushi',
     imageUrl: Ayushi,
+    about:
+      ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos illo fugiat illum nam itaque adipisci perferendis deserunt necessitatibus error. Unde fugiat facilis aliquam soluta placeat non ipsum, harum eos quod!',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Devanshu Koli',
+    imageUrl: Devanshu,
     about:
       ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos illo fugiat illum nam itaque adipisci perferendis deserunt necessitatibus error. Unde fugiat facilis aliquam soluta placeat non ipsum, harum eos quod!',
     linkedin: '',
